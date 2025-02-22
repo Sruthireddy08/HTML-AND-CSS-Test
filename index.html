@@ -53,6 +53,21 @@
             height: 100vh;
         }
 
+        /* question-5 */
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+
+        }
+        @media(max-width:600px){
+            .gallery{
+                grid-template-columns: 1;
+            }
+        }
+
+
+
         
 
     </style>
@@ -85,6 +100,14 @@
     <a href="#">CSS</a>
     <a href="#">JavaScript</a>
 </nav>
+
+<!--question-5-->
+<div class="gallery">
+    <img src="1627664298-javascript.webp" alt="sruthi" height="200" width="500">
+    <img src="images.png" alt="SRUTHI" height="200" width="500">
+    <img src="images.png" alt="SRUthI" height="200" width="500">
+    <img src="Vp9WvV7YKdH4k8sKRePcE8-650-80.jpg.webp" alt="SruthI" height="200" width="500">
+</div>
 
 
 
